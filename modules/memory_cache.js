@@ -1,7 +1,6 @@
 class MemoryCache{
-    constructor(lifespan, interval){
+    constructor(lifespan){
         this.lifespan = lifespan; // seconds
-        this.interval = interval;
         this.cache = {};
     }
 
