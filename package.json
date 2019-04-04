@@ -1,0 +1,20 @@
+{
+  "name": "pali-challenge",
+  "version": "1.0.0",
+  "description": "A Webservice to determine the meal with the least number of ingredients to prepare",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "pali",
+    "rest",
+    "api",
+    "meal"
+  ],
+  "author": "Samwul <datong.samwul@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.0.2"
+  }
+}
