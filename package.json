@@ -4,7 +4,8 @@
   "description": "A Webservice to determine the meal with the least number of ingredients to prepare",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "keywords": [
     "pali",
