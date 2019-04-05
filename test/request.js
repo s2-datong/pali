@@ -6,11 +6,7 @@ describe('request module', function() {
     it(`should throw an exception when url is invalid`, async function(){
         await assert.rejects(async () => {
             await request.get('www.comxx');
-        }, 
-        {
-            name: 'TypeError [ERR_INVALID_URL]'
-        }
-        );
+        });
     });
 
 
@@ -28,11 +24,7 @@ describe('request module', function() {
     it('should throw an exception if response is not valid json', async function(){
         await assert.rejects(async () => {
             await request.get('https://www.google.com');
-        }, 
-        {
-            name: 'SyntaxError'
-        }
-        );
+        });
     });
 
     

@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
 
 })
   
-server.listen(config.port, () => {
+server.listen(config.port, '0.0.0.0', () => {
     console.log(`Server running at ${config.port}`);
 })
   

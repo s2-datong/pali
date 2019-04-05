@@ -5,11 +5,12 @@ WORKDIR /www
 COPY package*.json ./
 RUN npm install
 
-COPY modules ./
-COPY tests ./
+COPY modules ./modules
+COPY test ./test
 COPY index.js ./
 
-RUN npm test
+RUN npm run test
 
 EXPOSE 3000
+
 CMD [ "npm", "start" ]
